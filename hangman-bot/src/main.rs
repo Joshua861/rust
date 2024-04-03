@@ -1,8 +1,5 @@
 use std::collections::HashMap;
-use std::{
-    fs,
-    io::{self, empty},
-};
+use std::{fs, io};
 
 fn main() {
     let mut words: Vec<String> = read_words();
